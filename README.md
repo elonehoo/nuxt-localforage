@@ -28,7 +28,12 @@ export default defineNuxtConfig({
   modules: [
     // Simple usage
     'nuxt3-localforage',
-  ]
+  ],
+  vite: {
+    optimizeDeps: {
+      include: ['localforage'],
+    },
+  }
 })
 ```
 
@@ -43,6 +48,11 @@ export default defineNuxtConfig({
     // Simple usage
     'nuxt3-localforage',
   ],
+  vite: {
+    optimizeDeps: {
+      include: ['localforage'],
+    },
+  }
   localForage: {
     /* module options */
   }
