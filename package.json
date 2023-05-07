@@ -1,6 +1,6 @@
 {
   "name": "nuxt3-localforage",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "Localforage module for Nuxt3",
   "repository": "wip-elonehoo/localforage",
   "license": "MIT",
@@ -47,6 +47,5 @@
     "nuxt": "^3.4.3",
     "unbuild": "^1.2.1",
     "vitest": "^0.30.1"
-
   }
 }
