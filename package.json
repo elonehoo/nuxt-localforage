@@ -1,0 +1,48 @@
+{
+  "name": "nuxt3-localforage",
+  "version": "0.0.7",
+  "description": "Localforage module for Nuxt3",
+  "repository": "wip-elonehoo/localforage",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/types.d.ts",
+      "import": "./dist/module.mjs",
+      "require": "./dist/module.cjs"
+    }
+  },
+  "main": "./dist/module.cjs",
+  "types": "./dist/types.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prepack": "nuxt-module-build",
+    "dev": "nuxi dev playground",
+    "dev:build": "nuxi build playground",
+    "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground",
+    "prepublishOnly": "npm run prepack",
+    "release": "bumpp package.json --commit --push --tag && pnpm -r publish --access public",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "test:watch": "vitest watch"
+  },
+  "dependencies": {
+    "@nuxt/kit": "^3.4.3",
+    "defu": "^6.1.2",
+    "localforage": "^1.10.0"
+  },
+  "devDependencies": {
+    "@nuxt/eslint-config": "^0.1.1",
+    "@nuxt/module-builder": "^0.3.0",
+    "@nuxt/schema": "^3.4.3",
+    "@nuxt/test-utils": "^3.4.3",
+    "@types/node": "^18",
+    "bumpp": "^9.1.0",
+    "changelogen": "^0.5.3",
+    "eslint": "^8.39.0",
+    "nuxt": "^3.4.3",
+    "vitest": "^0.30.1"
+  }
+}
