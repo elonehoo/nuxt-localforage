@@ -28,6 +28,9 @@
     "test": "vitest run",
     "test:watch": "vitest watch"
   },
+  "peerDependencies": {
+    "localforage": "^1.10.0"
+  },
   "dependencies": {
     "@nuxt/kit": "^3.4.3",
     "defu": "^6.1.2"
@@ -43,7 +46,7 @@
     "eslint": "^8.39.0",
     "nuxt": "^3.4.3",
     "unbuild": "^1.2.1",
-    "vitest": "^0.30.1",
-    "localforage": "^1.10.0"
+    "vitest": "^0.30.1"
+
   }
 }
