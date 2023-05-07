@@ -1,10 +1,10 @@
-import localforage from 'localforage'
+import { createInstance } from 'localforage'
 import type { LocalForageInstance } from './types'
 import { defineNuxtPlugin, useRuntimeConfig } from '#app'
 
 export default defineNuxtPlugin((nuxtApp) => {
   const { public: { localForage: options } } = useRuntimeConfig()
-  const localForageInstance = localforage.createInstance(options)
+  const localForageInstance = createInstance(options)
 
   if (options.instances) {
     for (const instance of options.instances) {
@@ -14,7 +14,7 @@ export default defineNuxtPlugin((nuxtApp) => {
         continue
 
       //@ts-ignore
-      localForageInstance[name] = localforage.createInstance(instance)
+      localForageInstance[name] = createInstance(instance)
     }
   }
 
