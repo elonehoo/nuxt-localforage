@@ -1,4 +1,6 @@
 <script lang="ts" setup>
+import {useLocalForage} from '../src/runtime/composables'
+import {ref,onMounted} from 'vue'
 const storage = useLocalForage()
 const savedKey = ref<string>()
 const key = ref('')
