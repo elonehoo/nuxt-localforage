@@ -10,7 +10,7 @@ export const WEBSQL = localforage.WEBSQL
 
 export * from './runtime/types'
 
-export interface ModuleOptions extends LocalForageOptions {
+interface ModuleOptions extends LocalForageOptions {
   instances?: LocalForageOptions[]
 }
 
@@ -47,3 +47,5 @@ export default defineNuxtModule<ModuleOptions>({
     })
   },
 })
+declare module '@nuxt/schema' {
+}
