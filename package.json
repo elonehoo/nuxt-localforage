@@ -32,19 +32,19 @@
     "localforage": "^1.10.0"
   },
   "dependencies": {
-    "@nuxt/kit": "^3.12.4",
+    "@nuxt/kit": "^3.13.0",
     "defu": "^6.1.4"
   },
   "devDependencies": {
-    "@nuxt/eslint-config": "^0.5.1",
+    "@nuxt/eslint-config": "^0.5.2",
     "@nuxt/module-builder": "^0.8.3",
-    "@nuxt/schema": "^3.12.4",
+    "@nuxt/schema": "^3.13.0",
     "@nuxt/test-utils": "^3.14.1",
-    "@types/node": "^22.4.1",
-    "bumpp": "^9.5.1",
+    "@types/node": "^22.5.0",
+    "bumpp": "^9.5.2",
     "changelogen": "^0.5.5",
-    "eslint": "^9.9.0",
-    "nuxt": "^3.12.4",
+    "eslint": "^9.9.1",
+    "nuxt": "^3.13.0",
     "unbuild": "^2.0.0",
     "vitest": "^2.0.5"
   }
