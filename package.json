@@ -39,13 +39,13 @@
     "@nuxt/eslint-config": "^1.1.0",
     "@nuxt/module-builder": "^0.8.4",
     "@nuxt/schema": "^3.15.4",
-    "@nuxt/test-utils": "^3.16.0",
-    "@types/node": "^22.13.4",
+    "@nuxt/test-utils": "^3.17.0",
+    "@types/node": "^22.13.8",
     "bumpp": "^10.0.3",
-    "changelogen": "^0.5.7",
-    "eslint": "^9.20.1",
+    "changelogen": "^0.6.0",
+    "eslint": "^9.21.0",
     "nuxt": "^3.15.4",
-    "unbuild": "^3.3.1",
+    "unbuild": "^3.5.0",
     "vitest": "^3.0.7"
   }
 }
