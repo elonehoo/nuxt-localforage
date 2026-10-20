@@ -13,7 +13,7 @@ importers:
         version: 3.21.11(magicast@0.5.5)
       defu:
         specifier: ^6.1.4
-        version: 6.1.4
+        version: 6.1.5
       localforage:
         specifier: ^1.10.0
         version: 1.10.0
@@ -928,10 +928,6 @@ packages:
     peerDependencies:
       eslint: ^9.0.0 || ^10.0.0
 
-  '@nuxt/kit@3.21.10':
-    resolution: {integrity: sha512-zs1+BZlRK1VlHo37TTzaMXQ+SemS1WeGRtcjWbW1ZoXpL3/ctn2VQu6nFpu6JqsJRd0QAPNS4GYmxGwLK8EHNw==}
-    engines: {node: '>=18.12.0'}
-
   '@nuxt/kit@3.21.11':
     resolution: {integrity: sha512-0Xi3tgwN77w43Q8GCPIrvWmF1J7Peehkts44E0uKNIml9lB8WoUn8YxyUjxBv47XtVR86NWoWALAT+/IEMHJEA==}
     engines: {node: '>=18.12.0'}
@@ -980,10 +976,6 @@ packages:
     peerDependencies:
       nuxt: ^3.21.11
 
-  '@nuxt/schema@3.21.10':
-    resolution: {integrity: sha512-i356YiRQ+xmGz1K1GS8IKQsFE/mRE6vuNoHvhdkk3jSXW+ncV9jp5ap/GX7t3xOr3XqxPUiNpMV9PpzoMMbJBA==}
-    engines: {node: ^14.18.0 || >=16.10.0}
-
   '@nuxt/schema@3.21.11':
     resolution: {integrity: sha512-5Couz53Pl/SgTwtMQ9jlxVIC6wZk9aAbWyeOD7D6D1UIP5DzV/yV5lPDY/kM0nmiqPSzJf9WLTdJgB2gNm0dOA==}
     engines: {node: ^14.18.0 || >=16.10.0}
@@ -994,42 +986,6 @@ packages:
     hasBin: true
     peerDependencies:
       '@nuxt/kit': '>=3.0.0'
-
-  '@nuxt/test-utils@3.17.2':
-    resolution: {integrity: sha512-i1NiWsJx8sv8Zg8z3WD7ITehMi9s8DaR6ArgmDHaKkQ6RJSaVhrPKyGBTv3gzdoF8CHUKa3MNhdX62JWblvLMg==}
-    engines: {node: ^18.20.5 || ^20.9.0 || ^22.0.0 || >=23.0.0}
-    peerDependencies:
-      '@cucumber/cucumber': ^10.3.1 || ^11.0.0
-      '@jest/globals': ^29.5.0
-      '@playwright/test': ^1.43.1
-      '@testing-library/vue': ^7.0.0 || ^8.0.1
-      '@vitest/ui': '*'
-      '@vue/test-utils': ^2.4.2
-      happy-dom: ^9.10.9 || ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
-      jsdom: ^22.0.0 || ^23.0.0 || ^24.0.0 || ^25.0.0 || ^26.0.0
-      playwright-core: ^1.43.1
-      vitest: ^0.34.6 || ^1.0.0 || ^2.0.0 || ^3.0.0
-    peerDependenciesMeta:
-      '@cucumber/cucumber':
-        optional: true
-      '@jest/globals':
-        optional: true
-      '@playwright/test':
-        optional: true
-      '@testing-library/vue':
-        optional: true
-      '@vitest/ui':
-        optional: true
-      '@vue/test-utils':
-        optional: true
-      happy-dom:
-        optional: true
-      jsdom:
-        optional: true
-      playwright-core:
-        optional: true
-      vitest:
-        optional: true
 
   '@nuxt/test-utils@3.23.0':
     resolution: {integrity: sha512-NZKWSwvfIiTO2qhMoJHVbUQLgJMe96J9ccLhPPqN5+a/XzISZ027LG9wWVp1tC5oB0qQ3eUDhrxmq6Lj8EQLMQ==}
@@ -2621,8 +2577,8 @@ packages:
     resolution: {integrity: sha512-N+MeXYoqr3pOgn8xfyRPREN7gHakLYjhsHhWGT3fWAiL4IkAt0iDw14QiiEm2bE30c5XX5q0FtAA3CK5f9/BUg==}
     engines: {node: '>=12'}
 
-  defu@6.1.4:
-    resolution: {integrity: sha512-mEQCMmwJu317oSz8CwdIOdwf3xMif1ttiM8LTufzc3g6kR+9Pe236twL8j3IYT1F7GfRgGcW6MWxzZjLIkuHIg==}
+  defu@6.1.5:
+    resolution: {integrity: sha512-pwdBJxJuJXmqrLO6s0VBmfbRz+G7FUzkjldAsdi9Yrv86mPyzq0ll1o8+8gB4Gsr6GJHbK1Lh3ngllgTInDCjA==}
 
   defu@6.1.7:
     resolution: {integrity: sha512-7z22QmUWiQ/2d0KkdYmANbRUVABpZ9SNYyH5vx6PZ+nE5bcC0l7uFvEfHlyld/HcGBFTL536ClDt3DEcSlEJAQ==}
@@ -2719,9 +2675,6 @@ packages:
 
   error-stack-parser-es@2.0.1:
     resolution: {integrity: sha512-J36ntO+rMQVRuR/umlmxmfLi4TpWwtmTnHoJoXTiC2xDNazs0VDPKcX6pbhZMDd2HFtH9isMBJXMdbki+A++Pg==}
-
-  errx@0.1.0:
-    resolution: {integrity: sha512-fZmsRiDNv07K6s2KkKFTiD2aIvECa7++PKyD5NC32tpRw46qZA3sOz+aM+/V9V0GDHxVTKLziveV4JhzBHDp9Q==}
 
   errx@0.1.2:
     resolution: {integrity: sha512-chfpPHmCerdo/rXr/nNvPZRkV4WwDRwzwnsJ0Uzz3tVi8Z41tDctRjduYy1138ii77AFlts1qvWtX3g/Acg91Q==}
@@ -2945,10 +2898,6 @@ packages:
 
   externality@1.0.2:
     resolution: {integrity: sha512-LyExtJWKxtgVzmgtEHyQtLFpw1KFhQphF9nTG8TpAIVkiI/xQ3FJh75tRFLYl4hkn7BNIIdLJInuDAavX35pMw==}
-
-  fake-indexeddb@6.0.0:
-    resolution: {integrity: sha512-YEboHE5VfopUclOck7LncgIqskAqnv4q0EWbYCaxKKjAvO93c+TJIaBuGy8CBFdbg9nKdpN3AuPRwVBJ4k7NrQ==}
-    engines: {node: '>=18'}
 
   fake-indexeddb@6.2.6:
     resolution: {integrity: sha512-ihhmr0KoET51jT8R4YhbUYuLLvr1qqO6INISygtN16i8loR8kAxtAUr4+EKHTSMjL+lggaAn4OC7DRqzrNgnuQ==}
@@ -3800,9 +3749,6 @@ packages:
     resolution: {integrity: sha512-vE7JKRyES09KiunauX7nd2Q9/L7lhok4smP9RZTDeD4MVs72Dp2qNFVz39Nz5a0FVEW0BJR6C0DYrq6unoziZA==}
     engines: {node: '>= 14.16'}
 
-  perfect-debounce@1.0.0:
-    resolution: {integrity: sha512-xCy9V055GLEqoFaHoC1SoLIaLmWctgCUaBaWxDZ7/Zx4CTyX7cJQLJOok/orfjZAh9kEYpjJa4d0KcJmCbctZA==}
-
   perfect-debounce@2.1.0:
     resolution: {integrity: sha512-LjgdTytVFXeUgtHZr9WYViYSM/g8MkcTPYDlPa3cDqMirHjKiSZPYd6DoL7pK8AJQr+uWkQvCjHNdiMqsrJs+g==}
 
@@ -4328,9 +4274,6 @@ packages:
   std-env@3.8.0:
     resolution: {integrity: sha512-Bc3YwwCB+OzldMxOXJIIvC6cPRWr/LxOp48CdQTOkPyk/t4JWWJbrilwBd7RJzKV8QW7tJkcgAmeuLLJugl5/w==}
 
-  std-env@3.8.1:
-    resolution: {integrity: sha512-vj5lIj3Mwf9D79hBkltk5qmkFI+biIKWS2IBxEyEU3AX1tUf7AoL8nSazCOiiqQsGKIq01SClsKEzweu34uwvA==}
-
   std-env@4.3.0:
     resolution: {integrity: sha512-OtU/EgQ1kIm5KwqQpBC6ZEMXrZRui11w8zgfTWp8cdO9B8OaPsbA8bTHO2P+HNo1VlUTGMVBwPhydu6poeXiag==}
 
@@ -4816,46 +4759,6 @@ packages:
 
   vite@6.1.1:
     resolution: {integrity: sha512-4GgM54XrwRfrOp297aIYspIti66k56v16ZnqHvrIM7mG+HjDlAwS7p+Srr7J6fGvEdOJ5JcQ/D9T7HhtdXDTzA==}
-    engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
-    hasBin: true
-    peerDependencies:
-      '@types/node': ^18.0.0 || ^20.0.0 || >=22.0.0
-      jiti: '>=1.21.0'
-      less: '*'
-      lightningcss: ^1.21.0
-      sass: '*'
-      sass-embedded: '*'
-      stylus: '*'
-      sugarss: '*'
-      terser: ^5.16.0
-      tsx: ^4.8.1
-      yaml: ^2.4.2
-    peerDependenciesMeta:
-      '@types/node':
-        optional: true
-      jiti:
-        optional: true
-      less:
-        optional: true
-      lightningcss:
-        optional: true
-      sass:
-        optional: true
-      sass-embedded:
-        optional: true
-      stylus:
-        optional: true
-      sugarss:
-        optional: true
-      terser:
-        optional: true
-      tsx:
-        optional: true
-      yaml:
-        optional: true
-
-  vite@6.2.3:
-    resolution: {integrity: sha512-IzwM54g4y9JA/xAeBPNaDXiBF8Jsgl3VBQ2YQ/wOY6fyW3xMdSoltIV3Bo59DErdqdE6RxUfv8W69DvUorE4Eg==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -5986,32 +5889,6 @@ snapshots:
       - supports-color
       - typescript
 
-  '@nuxt/kit@3.21.10(magicast@0.5.5)':
-    dependencies:
-      c12: 3.3.4(magicast@0.5.5)
-      consola: 3.4.2
-      defu: 6.1.7
-      destr: 2.0.5
-      errx: 0.1.0
-      exsolve: 1.1.3
-      ignore: 7.0.12
-      jiti: 2.7.0
-      klona: 2.0.6
-      knitwork: 1.3.0
-      mlly: 1.8.2
-      ohash: 2.0.11
-      pathe: 2.0.3
-      pkg-types: 2.3.3
-      rc9: 3.1.0
-      scule: 1.3.0
-      semver: 7.8.5
-      tinyglobby: 0.2.17
-      ufo: 1.6.4
-      unctx: 2.5.0
-      untyped: 2.0.0
-    transitivePeerDependencies:
-      - magicast
-
   '@nuxt/kit@3.21.11(magicast@0.5.5)':
     dependencies:
       c12: 3.3.4(magicast@0.5.5)
@@ -6212,14 +6089,6 @@ snapshots:
       - webpack
       - xml2js
 
-  '@nuxt/schema@3.21.10':
-    dependencies:
-      '@vue/shared': 3.5.43
-      defu: 6.1.7
-      pathe: 2.0.3
-      pkg-types: 2.3.3
-      std-env: 4.3.0
-
   '@nuxt/schema@3.21.11':
     dependencies:
       '@vue/shared': 3.5.43
@@ -6236,58 +6105,13 @@ snapshots:
       rc9: 3.1.0
       std-env: 4.3.0
 
-  '@nuxt/test-utils@3.17.2(@types/node@22.20.5)(jiti@2.7.0)(magicast@0.5.5)(terser@5.31.6)(typescript@5.9.3)(vitest@3.0.9(@types/node@22.20.5)(jiti@2.7.0)(supports-color@10.2.2)(terser@5.31.6)(yaml@2.9.1))(yaml@2.9.1)':
-    dependencies:
-      '@nuxt/kit': 3.21.10(magicast@0.5.5)
-      '@nuxt/schema': 3.21.10
-      c12: 3.3.4(magicast@0.5.5)
-      consola: 3.4.2
-      defu: 6.1.4
-      destr: 2.0.5
-      estree-walker: 3.0.3
-      fake-indexeddb: 6.0.0
-      get-port-please: 3.2.0
-      h3: 1.15.11
-      local-pkg: 1.2.1
-      magic-string: 0.30.21
-      node-fetch-native: 1.6.7
-      node-mock-http: 1.0.5
-      ofetch: 1.5.1
-      pathe: 2.0.3
-      perfect-debounce: 1.0.0
-      radix3: 1.1.2
-      scule: 1.3.0
-      std-env: 3.8.1
-      tinyexec: 0.3.2
-      ufo: 1.6.4
-      unplugin: 2.3.11
-      vite: 6.2.3(@types/node@22.20.5)(jiti@2.7.0)(terser@5.31.6)(yaml@2.9.1)
-      vitest-environment-nuxt: 1.0.1
-      vue: 3.5.43(typescript@5.9.3)
-    optionalDependencies:
-      vitest: 3.0.9(@types/node@22.20.5)(jiti@2.7.0)(supports-color@10.2.2)(terser@5.31.6)(yaml@2.9.1)
-    transitivePeerDependencies:
-      - '@types/node'
-      - jiti
-      - less
-      - lightningcss
-      - magicast
-      - sass
-      - sass-embedded
-      - stylus
-      - sugarss
-      - terser
-      - tsx
-      - typescript
-      - yaml
-
   '@nuxt/test-utils@3.23.0(crossws@0.4.15(srvx@0.11.22))(magicast@0.5.5)(typescript@5.9.3)(vitest@3.0.9(@types/node@22.20.5)(jiti@2.7.0)(supports-color@10.2.2)(terser@5.31.6)(yaml@2.9.1))':
     dependencies:
       '@clack/prompts': 1.0.0-alpha.9
-      '@nuxt/kit': 3.21.10(magicast@0.5.5)
+      '@nuxt/kit': 3.21.11(magicast@0.5.5)
       c12: 3.3.4(magicast@0.5.5)
       consola: 3.4.2
-      defu: 6.1.4
+      defu: 6.1.5
       destr: 2.0.5
       estree-walker: 3.0.3
       exsolve: 1.1.3
@@ -7655,7 +7479,7 @@ snapshots:
 
   define-lazy-prop@3.0.0: {}
 
-  defu@6.1.4: {}
+  defu@6.1.5: {}
 
   defu@6.1.7: {}
 
@@ -7730,8 +7554,6 @@ snapshots:
   error-stack-parser-es@1.0.5: {}
 
   error-stack-parser-es@2.0.1: {}
-
-  errx@0.1.0: {}
 
   errx@0.1.2: {}
 
@@ -8088,8 +7910,6 @@ snapshots:
       mlly: 1.8.2
       pathe: 1.1.2
       ufo: 1.6.4
-
-  fake-indexeddb@6.0.0: {}
 
   fake-indexeddb@6.2.6: {}
 
@@ -8644,7 +8464,7 @@ snapshots:
       autoprefixer: 10.6.1(postcss@8.5.29)
       citty: 0.1.6
       cssnano: 7.1.9(postcss@8.5.29)
-      defu: 6.1.4
+      defu: 6.1.5
       esbuild: 0.25.12
       jiti: 1.21.7
       mlly: 1.8.2
@@ -9146,8 +8966,6 @@ snapshots:
 
   pathval@2.0.0: {}
 
-  perfect-debounce@1.0.0: {}
-
   perfect-debounce@2.1.0: {}
 
   picocolors@1.1.1: {}
@@ -9578,7 +9396,7 @@ snapshots:
 
   serve-placeholder@2.0.2:
     dependencies:
-      defu: 6.1.4
+      defu: 6.1.5
 
   serve-static@2.2.1(supports-color@10.2.2):
     dependencies:
@@ -9666,8 +9484,6 @@ snapshots:
   std-env@3.10.0: {}
 
   std-env@3.8.0: {}
-
-  std-env@3.8.1: {}
 
   std-env@4.3.0: {}
 
@@ -9868,7 +9684,7 @@ snapshots:
       '@rollup/pluginutils': 5.4.0(rollup@4.64.5)
       citty: 0.1.6
       consola: 3.4.2
-      defu: 6.1.4
+      defu: 6.1.5
       esbuild: 0.25.12
       fix-dts-default-cjs-exports: 1.0.1
       hookable: 5.5.3
@@ -10050,7 +9866,7 @@ snapshots:
   untyped@2.0.0:
     dependencies:
       citty: 0.1.6
-      defu: 6.1.4
+      defu: 6.1.5
       jiti: 2.7.0
       knitwork: 1.3.0
       scule: 1.3.0
@@ -10183,18 +9999,6 @@ snapshots:
       terser: 5.31.6
       yaml: 2.9.1
 
-  vite@6.2.3(@types/node@22.20.5)(jiti@2.7.0)(terser@5.31.6)(yaml@2.9.1):
-    dependencies:
-      esbuild: 0.25.12
-      postcss: 8.5.29
-      rollup: 4.64.5
-    optionalDependencies:
-      '@types/node': 22.20.5
-      fsevents: 2.3.3
-      jiti: 2.7.0
-      terser: 5.31.6
-      yaml: 2.9.1
-
   vite@7.3.7(@types/node@22.20.5)(jiti@2.7.0)(terser@5.31.6)(yaml@2.9.1):
     dependencies:
       esbuild: 0.28.2
@@ -10212,7 +10016,7 @@ snapshots:
 
   vitest-environment-nuxt@1.0.1:
     dependencies:
-      '@nuxt/test-utils': 3.17.2(@types/node@22.20.5)(jiti@2.7.0)(magicast@0.5.5)(terser@5.31.6)(typescript@5.9.3)(vitest@3.0.9(@types/node@22.20.5)(jiti@2.7.0)(supports-color@10.2.2)(terser@5.31.6)(yaml@2.9.1))(yaml@2.9.1)
+      '@nuxt/test-utils': 3.23.0(crossws@0.4.15(srvx@0.11.22))(magicast@0.5.5)(typescript@5.9.3)(vitest@3.0.9(@types/node@22.20.5)(jiti@2.7.0)(supports-color@10.2.2)(terser@5.31.6)(yaml@2.9.1))
 
   vitest@3.0.9(@types/node@22.20.5)(jiti@2.7.0)(supports-color@10.2.2)(terser@5.31.6)(yaml@2.9.1):
     dependencies:
